@@ -2,9 +2,9 @@ language: ruby
 rvm:
   - 1.9.3
   - 2.0.0
-  - 2.1.5
-  - 2.2.2
-  - 2.3.0
+  - 2.1.9
+  - 2.2.5
+  - 2.3.1
   - jruby-19mode # JRuby in 1.9 mode
 gemfile:
   - gemfiles/rails1-4.gemfile
@@ -16,7 +16,7 @@ matrix:
     - gemfile: gemfiles/rails5.gemfile
       rvm: 2.0.0
     - gemfile: gemfiles/rails5.gemfile
-      rvm: 2.1.5
+      rvm: 2.1.9
     - gemfile: gemfiles/rails5.gemfile
       rvm: jruby-19mode
 before_install:
